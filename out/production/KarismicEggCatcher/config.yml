@@ -1,0 +1,375 @@
+ConfigVersion: 4.0
+UsePermissions: true
+UseCatchChance: true
+LooseEggOnFail: true
+UseVaultCost: false
+UseItemCost: false
+UseHealthPercentage: false
+ExplosionEffect: true
+SmokeEffect: true
+NonPlayerCatching: false
+PreventCatchingBabyAnimals: true
+PreventCatchingTamedAnimals: true
+PreventCatchingShearedSheeps: true
+SpawnChickenOnSuccess: false
+SpawnChickenOnFail: true
+VaultTargetBankAccount: ""
+DeleteVillagerInventoryOnCatch: false
+LogEggCaptures: false
+
+Messages:
+  PermissionFail: "You do not have permission to catch this mob!"
+  VaultFail: "It costs %s dollars to catch this mob!"
+  VaultSuccess: "You paid %s dollars for catching this mob!"
+  ItemCostFail: "It costs %s gold nugget(s) to catch this mob!"
+  ItemCostSuccess: "You paid %s gold nugget(s) for catching this mob!"
+  CatchChanceFail: "You failed to catch this mob!"
+  CatchChanceSuccess: ""
+  HealthPercentageFail: "The mob has more than %s percent health left and cannot be caught!"
+
+
+mobs:
+  BAT:
+    EggId: 65
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  BLAZE:
+    EggId: 61
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  CAVE_SPIDER:
+    EggId: 59
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  CHICKEN:
+    EggId: 93
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  COW:
+    EggId: 92
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  CREEPER:
+    EggId: 50
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  DONKEY:
+    EggId: 31
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  ELDER_GUARDIAN:
+    EggId: 4
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  ENDERMAN:
+    EggId: 58
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  ENDERMITE:
+    EggId: 67
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  EVOKER:
+    EggId: 34
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  GHAST:
+    EggId: 56
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  GUARDIAN:
+    EggId: 68
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  HORSE:
+    EggId: 100
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  HUSK:
+    EggId: 23
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  LLAMA:
+    EggId: 103
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  MAGMA_CUBE:
+    EggId: 62
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  MUSHROOM_COW:
+    EggId: 96
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  MULE:
+    EggId: 32
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  OCELOT:
+    EggId: 98
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  PARROT:
+    EggId: 105
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  PIG:
+    EggId: 90
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  POLAR_BEAR:
+    EggId: 102
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  RABBIT:
+    EggId: 101
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  SHEEP:
+    EggId: 91
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  SHULKER:
+    EggId: 69
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  SILVERFISH:
+    EggId: 60
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  SKELETON_HORSE:
+    EggId: 28
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  SKELETON:
+    EggId: 51
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  SLIME:
+    EggId: 55
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  SPIDER:
+    EggId: 52
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  SQUID:
+    EggId: 94
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  STRAY:
+    EggId: 6
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  VEX:
+    EggId: 35
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  VILLAGER:
+    EggId: 120
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  VINDICATOR:
+    EggId: 36
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  WITCH:
+    EggId: 66
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  WITHER_SKELETON:
+    EggId: 5
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  WOLF:
+    EggId: 95
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  ZOMBIE_HORSE:
+    EggId: 29
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  PIG_ZOMBIE:
+    EggId: 57
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  ZOMBIE:
+    EggId: 54
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
+  ZOMBIE_VILLAGER:
+    EggId: 27
+    CatchChance: 100.0
+    VaultCost: 0.0
+    HealthPercentage: 100.0
+    ItemCost:
+      ItemName: GOLD_NUGGET
+      Amount: 1
